@@ -39,4 +39,11 @@ CREATE TABLE invoice_items (
   treatment_id INT NOT NULL REFERENCES treatments(id)
 );
 
+-- Creating table for the many-to-many relationship between medical histories and treatments
+CREATE TABLE medical_history_treatments (
+  medical_history_id INT NOT NULL REFERENCES medical_histories(id),
+  treatment_id INT NOT NULL REFERENCES treatments(id),
+  PRIMARY KEY (medical_history_id, treatment_id)
+);
+
 
