@@ -140,8 +140,7 @@ I would like to thank all of my colleagues who inspire to do my best everyday.
 
 - **Did you create this project from scratch?**
 
-  - Yes, and for that reason I learned a lot.
-
+  - Absolutely. Creating this project from zero has significantly increased my understanding of essential SQL and PostgreSQL concepts. This project has familiarized me with interpreting database diagrams to build a database schema, implementing various types of joins to link tables effectively, optimizing query performance through strategic indexing, enforcing data integrity with type-specific constraints, and effectively documenting the development process for clear communication and future maintenance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
